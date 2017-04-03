@@ -8,6 +8,10 @@
   src: url('../fonts/start-webfont.ttf');
 }
 
+#logo {
+  width: 100%;
+}
+
 /* Responsive Navigation */
 #nav-trigger {
   display: none;
