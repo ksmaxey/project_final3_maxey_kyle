@@ -1,3 +1,13 @@
+@font-face {
+  font-family: bit;
+  src: url('../fonts/bit-webfont.ttf');
+}
+
+@font-face {
+  font-family: start;
+  src: url('../fonts/start-webfont.ttf');
+}
+
 /* Responsive Navigation */
 #nav-trigger {
   display: none;
@@ -7,10 +17,11 @@
 #nav-trigger span {
   display: inline-block;
   padding: 10px 30px;
-  background-color: #c80032;
-  color: white;
+  background-color: #6c6e6e;
+  color: #ab0303;
   cursor: pointer;
   text-transform: uppercase;
+  border-radius: 10px;
 }
 
 #nav-trigger span: after {
