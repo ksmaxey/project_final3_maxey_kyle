@@ -12,12 +12,13 @@
 #nav-trigger {
   display: none;
   text-align: center;
+  font-family: bit;
 }
 
 #nav-trigger span {
   display: inline-block;
   padding: 10px 30px;
-  background-color: #6c6e6e;
+  background-color: #999999;
   color: #ab0303;
   cursor: pointer;
   text-transform: uppercase;
@@ -30,13 +31,10 @@
   width: 20px;
   height: 10px;
   content: "";
-  border-left: solid 10px transparent;
-  border-top: solid 10px #ffffff;
-  border-right: solid 10px transparent;
 }
 
 #nav-trigger span:hover {
-  background-color: #af002c;
+  background-color: #6c6e6e;
 }
 
 #nav-trigger span.open: after {
@@ -48,11 +46,7 @@
 
 nav {
   margin-bottom: 30px;
-}
-
-nav#nav-main {
-  background-color: #c80032;
-  padding: 10px 0;
+  font-family: bit;
 }
 
 nav#nav-main ul {
@@ -64,8 +58,6 @@ nav#nav-main ul {
 
 nav#nav-main li {
   display: inline-block;
-  border-right: solid 1px #950025;
-  padding: 0 5px;
 }
 
 nav#nav-main li:last-child {
@@ -74,12 +66,13 @@ nav#nav-main li:last-child {
 
 nav#nav-main a {
   display: block;
-  color: white;
-  padding: 10px 30px;
+  color: #040f5d;
+  padding: 10px 20px;
 }
 
 nav#nav-main a:hover {
-  background-color: #af002c;
+  background-color: #6c6e6e;
+  border-radius: 10px;
   color: #ffffff;
 }
 
@@ -97,14 +90,13 @@ nav#nav-mobile ul {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  background-color: #c80032;
+  background-color: #999999;
 }
 
 nav#nav-mobile li {
   display: block;
   padding: 5px 0;
-  margin: 0 5px;
-  border-bottom: solid 1px #950025;
+  border-bottom: solid 1px white;
 }
 
 nav#nav-mobile li:last-child {
@@ -113,12 +105,12 @@ nav#nav-mobile li:last-child {
 
 nav#nav-mobile a {
   display: block;
-  color: white;
+  color: #ab0303;
   padding: 10px 30px;
 }
 
 nav#nav-mobile a:hover {
-  background-color: #af002c;
+  background-color: #6c6e6e;
   color: #ffffff;
 }
 
