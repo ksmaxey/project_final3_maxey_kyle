@@ -23,6 +23,7 @@ body {
   margin: 0 auto;
   padding: 10px;
   background: rgba(128, 128, 128, 0.4);
+  text-align: center;
 }
 
 @font-face {
@@ -152,6 +153,10 @@ nav#nav-mobile a:hover {
   color: #ffffff;
 }
 
+table {
+  margin: 0 auto;
+}
+
 th {
   text-align: right;
 }
@@ -167,6 +172,10 @@ h2 {
 p {
   font-family: start;
   line-height: 1.5;
+  font-size: 0.7em;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 10px;
 }
 
 @media all and (max-width: 900px) {
