@@ -15,7 +15,13 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: #999999;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
 }
 
 @font-face {
@@ -28,10 +34,15 @@ body {
   src: url('../fonts/start-webfont.ttf');
 }
 
+header {
+  background-color: #ab3501;
+  padding: 10px;
+}
+
 #logo {
-  width: 100%;
-  max-width: 400px;
-  margin: auto;
+  display: block;
+  max-width: 200px;
+  margin: 0 auto;
 }
 
 /* Responsive Navigation */
