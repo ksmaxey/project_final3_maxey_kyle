@@ -152,6 +152,10 @@ nav#nav-mobile a:hover {
   color: #ffffff;
 }
 
+#location {
+  width: 100%;
+}
+
 table {
   margin: 0 auto;
 }
