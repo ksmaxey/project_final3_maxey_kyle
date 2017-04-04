@@ -22,6 +22,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 10px;
+  background: rgba(128, 128, 128, 0.4);
 }
 
 @font-face {
@@ -153,6 +154,18 @@ nav#nav-mobile a:hover {
 
 th {
   text-align: right;
+}
+
+h1 {
+  color: #040f5d;
+}
+
+h2 {
+  color: #ab3501;
+}
+
+p {
+  font-family: start;
 }
 
 @media all and (max-width: 900px) {
