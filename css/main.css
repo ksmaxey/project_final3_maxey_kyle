@@ -106,6 +106,7 @@ nav#nav-main a {
   display: block;
   color: #040f5d;
   padding: 10px 20px;
+  text-decoration: none;
 }
 
 nav#nav-main a:hover {
