@@ -193,7 +193,7 @@ footer img {
   padding: 5px;
 }
 
-@media all and (max-width: 900px) {
+@media all and (min-width: 100px) {
   #nav-trigger {
     display: block;
   }
@@ -204,5 +204,62 @@ footer img {
 
   nav#nav-mobile {
     display: block;
+  }
+
+  footer {
+    display: inline-block;
+  }
+}
+
+@media all and (min-width: 600px) {
+
+  nav#nav-main {
+    display: block;
+  }
+
+  #nav-trigger {
+    display: none;
+  }
+
+  nav#nav-mobile {
+    display: none;
+  }
+
+  nav li {
+    display: inline-block;
+    width: calc(100% / 4);
+  }
+
+  #welcome {
+    width: 50%;
+    display: inline-block;
+    float: left;
+  }
+
+  #location {
+    width: 50%;
+    float: right;
+    display: inline-block;
+  }
+
+  #hours {
+    display: inline-block;
+  }
+}
+
+@media all and (min-width: 1000px) {
+
+  #logo {
+    float: left;
+    display: inline-block;
+  }
+
+  nav {
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+
+  nav li {
+    display: inline-block;
   }
 }
