@@ -273,6 +273,16 @@ footer img {
   nav li {
     display: inline-block;
   }
+
+  .mainmenu {
+    display: inline-block;
+    max-width: 496px;
+    padding: 0;
+    vertical-align: top;
+  }
+
+  .mainmenu .item {
+  }
 }
 
 /* MENU */
