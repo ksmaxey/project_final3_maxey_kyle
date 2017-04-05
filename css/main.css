@@ -183,7 +183,7 @@ h2 {
   color: #ab3501;
 }
 
-p {
+# welcome p {
   font-family: start;
   line-height: 1.5;
   font-size: 0.7em;
@@ -273,4 +273,61 @@ footer img {
   nav li {
     display: inline-block;
   }
+}
+
+/* MENU */
+.food {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: block;
+  color: rgb(92, 92, 92);
+}
+
+.mainmenu {
+  margin-bottom: 80px;
+  width: 100%;
+  padding: 10px;
+  background: rgba(128, 128, 128, 0.4);
+}
+
+.title {
+  font-family: bit;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.item {
+  margin: 35px 0;
+}
+
+.name {
+  color: #040f5d;
+  border-bottom: 2px dotted #ab3501;
+}
+
+.description {
+  font-family: start;
+  font-size: 0.7em;
+  line-height: 2;
+  color: black;
+}
+
+.price {
+  float: right;
+  font-weight: bold;
+  font-family: start;
+  margin-top: -50px;
+  color: #ab3501;
+}
+
+.fav {
+  max-width: 30px;
+}
+
+#favorite {
+  font-size: 0.5em;
+  color: #ab3501;
+  padding: 10px;
+  text-align: center;
+  background: rgba(128, 128, 128, 0.4);
 }
