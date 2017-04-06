@@ -280,9 +280,6 @@ footer img {
     padding: 0;
     vertical-align: top;
   }
-
-  .mainmenu .item {
-  }
 }
 
 /* MENU */
@@ -340,4 +337,83 @@ footer img {
   padding: 10px;
   text-align: center;
   background: rgba(128, 128, 128, 0.4);
+}
+
+/* IMAGES */
+#gallery {
+  background-image: url('../img/chalk.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#gallery nav a,
+#gallery footer {
+  color: #efefef;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+h1.images {
+  color: #ab2501;
+  margin: 0 auto;
+  max-width: 200px;
+}
+
+.images a {
+  display: inline-block;
+  margin-bottom: 8px;
+  width: calc(50% - 4px);
+  margin-right: 8px;
+  text-decoration: none;
+  color: black;
+}
+
+.images a:nth-of-type(2n) {
+  margin-right: 0;
+}
+
+@media screen and (min-width: 50em) {
+  .images a {
+    width: calc(25% - 6px);
+  }
+
+  .images a:nth-of-type(2n) {
+    margin-right: 8px;
+  }
+
+  .images a:nth-of-type(4n) {
+    margin-right: 0;
+  }
+}
+
+.images a:hover img {
+  transform: scale(1.15);
+}
+
+.images figure {
+  margin: 0;
+  overflow: hidden;
+  padding-top: 20px;
+}
+
+.images figcaption {
+  margin-bottom: 15px;
+  font-size: 0.8em;
+  text-align: center;
+  color: white;
+}
+
+.images img {
+  border: none;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  background: #cccccc;
+  transition: transform 0.2s ease-in-out;
 }
