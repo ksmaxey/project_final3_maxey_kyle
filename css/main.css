@@ -141,6 +141,7 @@ nav#nav-mobile ul {
   margin-right: auto;
   text-align: center;
   background-color: #999999;
+  z-index: 5;
 }
 
 nav#nav-mobile li {
@@ -416,6 +417,10 @@ h1.images {
   display: block;
   background: #cccccc;
   transition: transform 0.2s ease-in-out;
+}
+
+#events h2 {
+  text-align: center;
 }
 
 .rslides {
