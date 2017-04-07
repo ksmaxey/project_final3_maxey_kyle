@@ -419,8 +419,29 @@ h1.images {
   transition: transform 0.2s ease-in-out;
 }
 
-#events h2 {
+#events {
   text-align: center;
+}
+
+#events img,
+#awards img {
+  width: 100%;
+  max-width: 800px;
+  padding: 10px;
+}
+
+#events h3 {
+  color: #040f5d;
+  text-decoration: underline;
+}
+
+#events p {
+  font-family: start;
+  font-size: 0.8em;
+  line-height: 1.5;
+  text-align: left;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .rslides {
