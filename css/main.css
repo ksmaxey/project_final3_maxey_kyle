@@ -281,6 +281,25 @@ footer img {
     padding: 0;
     vertical-align: top;
   }
+
+  #cast,
+  #breakfast,
+  #awards,
+  #specials {
+    width: 50%;
+    display: inline-block;
+  }
+
+  #cast,
+  #awards {
+    float: left;
+  }
+
+
+  #specials,
+  #breakfast {
+    float: right;
+  }
 }
 
 /* MENU */
@@ -420,7 +439,8 @@ h1.images {
 }
 
 #events {
-  text-align: center;
+  max-width: 1000px;
+  margin: auto;
 }
 
 #events img,
@@ -442,6 +462,8 @@ h1.images {
   text-align: left;
   max-width: 800px;
   margin: 0 auto;
+  padding: 10px;
+  padding-bottom: 20px;
 }
 
 .rslides {
@@ -450,7 +472,7 @@ h1.images {
   overflow: hidden;
   width: 100%;
   max-width: 500px;
-  padding: 10px;
+  padding-bottom: 10px;
   margin: 0 auto;
 }
 
