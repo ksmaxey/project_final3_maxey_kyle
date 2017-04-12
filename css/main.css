@@ -530,3 +530,7 @@ address {
 .contact {
   background: rgba(255, 123, 0, 0.5);
 }
+
+.icons {
+  width: 100%;
+}
