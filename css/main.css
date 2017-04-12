@@ -369,9 +369,7 @@ footer img {
 }
 
 #gallery nav a,
-#gallery footer,
-#contact nav a,
-#contact footer {
+#gallery footer {
   color: #efefef;
 }
 
@@ -507,4 +505,28 @@ h1.images {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  color: #999999;
+}
+
+#contact p,
+#contact nav a,
+#contact h1,
+#contact h2 {
+  color: #999999;
+}
+
+#contact h1 {
+  text-align: center;
+}
+
+address {
+  padding: 20px;
+  text-align: left;
+  max-width: 500px;
+  margin: auto;
+  color: #040f5d;
+}
+
+.contact {
+  background: rgba(255, 123, 0, 0.5);
 }
