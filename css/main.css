@@ -369,7 +369,9 @@ footer img {
 }
 
 #gallery nav a,
-#gallery footer {
+#gallery footer,
+#contact nav a,
+#contact footer {
   color: #efefef;
 }
 
@@ -497,4 +499,12 @@ h1.images {
   float: left;
   width: 100%;
   border: 0;
+}
+
+#contact {
+  background-image: url('../img/contactbg.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
