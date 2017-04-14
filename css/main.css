@@ -508,7 +508,6 @@ h1.images {
   color: #999999;
 }
 
-#contact p,
 #contact nav a,
 #contact h1,
 #contact h2 {
@@ -525,10 +524,22 @@ address {
   max-width: 500px;
   margin: auto;
   color: #040f5d;
+  line-height: 1.5;
 }
 
 .contact {
   background: rgba(255, 123, 0, 0.5);
+}
+
+.contact h3 {
+  padding: 5px;
+}
+
+.contact p {
+  color: #040f5d;
+  font-family: start;
+  text-align: center;
+  padding-bottom: 10px;
 }
 
 .icons {
