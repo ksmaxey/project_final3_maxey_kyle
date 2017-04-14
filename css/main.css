@@ -259,6 +259,31 @@ footer img {
   }
 }
 
+@media all and (min-width: 800px) {
+  #address,
+  #phonemail {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  #address {
+    float: left;
+  }
+
+  #phonemail {
+    float: right;
+  }
+
+  .icons {
+    clear: both;
+  }
+
+  .icons h2 {
+    display: none;
+  }
+}
+
 @media all and (min-width: 1000px) {
 
   #logo {
@@ -306,6 +331,10 @@ footer img {
     width: calc(100% / 3);
     display: inline-block;
     vertical-align: top;
+  }
+
+  .icons {
+    clear: none;
   }
 }
 
@@ -534,6 +563,14 @@ address {
   line-height: 1.5;
 }
 
+#address {
+  padding-bottom: 20px;
+}
+
+#phonemail {
+  padding-top: 8px;
+}
+
 .contact {
   background: rgba(255, 123, 0, 0.5);
 }
@@ -561,6 +598,8 @@ address {
   max-width: 100px;
   padding: 10px;
 }
+
+/* Link Button */
 
 .link {
   position: relative;
@@ -613,4 +652,29 @@ address {
 .link--btn:active {
   -webkit-transform: scale(0.95);
   transform: scale(0.95);
+}
+
+/* Map Button */
+
+.button {
+  display: inline-block;
+  padding: 0 45px;
+  font-size: 14px;
+  font-family: 'bit';
+  cursor: pointer;
+  text-align: center;
+  color: #ab0303;
+  background-color: #999999;
+  border-radius: 8px;
+  box-shadow: 0 7px #6c6e6e;
+}
+
+.button:hover {
+  background-color: #999999;
+}
+
+.button:active {
+  background-color: #999999;
+  box-shadow: 0 5px #3b444c;
+  transform: translateY(3px);
 }
