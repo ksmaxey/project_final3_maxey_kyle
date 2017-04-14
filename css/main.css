@@ -300,6 +300,17 @@ footer img {
   #breakfast {
     float: right;
   }
+
+  #address,
+  #phonemail {
+    width: calc(100% / 3);
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  #phonemail {
+    padding-bottom: 50px;
+  }
 }
 
 /* MENU */
