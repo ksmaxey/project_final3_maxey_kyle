@@ -11,6 +11,18 @@ $(document).ready(function () {
     });
 });
 
-$(function () {
+//Slide Show Plugin
+
+$(document).ready(function () {
     $('.rslides').responsiveSlides();
+});
+
+//Custom jQuery code
+
+$('#phone').click(function () {
+    $('#phone').html('555-123-4567');
+});
+
+$('#email').click(function () {
+    $('#email').html('sweets@wreckit.com');
 });
