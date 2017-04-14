@@ -531,6 +531,10 @@ address {
   background: rgba(255, 123, 0, 0.5);
 }
 
+#contactnav li a {
+  color: #ab0303;
+}
+
 .contact h3 {
   padding: 5px;
 }
@@ -542,6 +546,11 @@ address {
   padding-bottom: 10px;
 }
 
-.icons {
-  width: 100%;
+#contactfoot {
+  color: #999999;
+}
+
+.icons img {
+  max-width: 100px;
+  padding: 10px;
 }
