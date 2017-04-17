@@ -1178,17 +1178,6 @@ address {
   z-index: 99999;
 }
 
-@-webkit-keyframes fancybox-rotate {
-  from {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(359deg);
-    transform: rotate(359deg);
-  }
-}
-
 @keyframes fancybox-rotate {
   from {
     -webkit-transform: rotate(0deg);
@@ -1393,16 +1382,6 @@ li.fancybox-thumbs-loading {
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
-}
-
-@-webkit-keyframes zoom {
-  from {-webkit-transform: scale(0);}
-  to {-webkit-transform: scale(1);}
-}
-
-@keyframes zoom {
-  from {transform: scale(0);}
-  to {transform: scale(1);}
 }
 
 .close {
