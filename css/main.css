@@ -10,7 +10,7 @@ html {
 
 .visuallyhidden {
   border: 0;
-  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
   height: 1px;
   margin: -1px;
   overflow: hidden;
@@ -74,7 +74,7 @@ header {
   border-radius: 10px;
 }
 
-#nav-trigger span: after {
+#nav-trigger span ::after {
   display: inline-block;
   margin-left: 10px;
   width: 20px;
@@ -82,11 +82,11 @@ header {
   content: "";
 }
 
-#nav-trigger span:hover {
+#nav-trigger span :hover {
   background-color: #6c6e6e;
 }
 
-#nav-trigger span.open: after {
+#nav-trigger span.open ::after {
   border-left: solid 10px transparent;
   border-top: none;
   border-bottom: solid 10px #ffffff;
@@ -184,7 +184,7 @@ h2 {
   color: #ab3501;
 }
 
-# welcome p {
+#welcome p {
   font-family: start;
   line-height: 1.5;
   font-size: 0.7em;
@@ -679,9 +679,6 @@ address {
 }
 
 /* Fancybox */
-
-@charset "UTF-8";
-
 .fancybox-enabled {
   overflow: hidden;
 }
@@ -733,7 +730,6 @@ address {
   opacity: 0;
   z-index: 99994;
   transition: opacity 0.2s;
-  pointer-events: none;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   direction: ltr;
@@ -749,7 +745,6 @@ address {
 
 .fancybox-show-infobar .fancybox-infobar {
   display: inline-block;
-  pointer-events: all;
 }
 
 .fancybox-infobar__body {
@@ -761,11 +756,9 @@ address {
   text-align: center;
   color: #dddddd;
   background-color: rgba(30, 30, 30, 0.7);
-  pointer-events: none;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none;
   -webkit-touch-callout: none;
   -webkit-tap-highlight-color: transparent;
   -webkit-font-smoothing: subpixel-antialiased;
@@ -776,7 +769,6 @@ address {
   top: 0;
   right: 0;
   display: none;
-  pointer-events: all;
 }
 
 .fancybox-show-buttons .fancybox-buttons {
@@ -1037,7 +1029,6 @@ address {
   background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.1) 20%, rgba(0, 0, 0, 0.2) 40%, rgba(0, 0, 0, 0.6) 80%, rgba(0, 0, 0, 0.8) 100%);
   opacity: 0;
   transition: opacity 0.2s;
-  pointer-events: none;
 }
 
 .fancybox-show-caption .fancybox-caption-wrap {
@@ -1052,11 +1043,6 @@ address {
   color: #ffffff;
   line-height: 20px;
   -webkit-text-size-adjust: none;
-}
-
-.fancybox-caption a,
-.fancybox-caption button {
-  pointer-events: all;
 }
 
 .fancybox-caption a {
@@ -1085,7 +1071,6 @@ address {
 
 .fancybox-button--disabled {
   cursor: default;
-  pointer-events: none;
 }
 
 .fancybox-infobar__body,
@@ -1100,7 +1085,6 @@ address {
 .fancybox-button::before,
 .fancybox-button::after {
   content: '';
-  pointer-events: none;
   position: absolute;
   border-color: #ffffff;
   background-color: currentColor;
@@ -1350,7 +1334,6 @@ li.fancybox-thumbs-loading {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none;
 }
 
 .fancybox-thumbs > ul > li::before {
