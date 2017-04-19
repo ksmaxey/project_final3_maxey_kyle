@@ -14,6 +14,11 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
+    var slideshow = document.getElementById('slides');
+
+    if (slideshow.length > 0) {
+        slideshow.responsiveSlides();
+    }
     $('.rslides').responsiveSlides();
 });
 
@@ -22,7 +27,7 @@ $(document).ready(function () {
 var modal = document.getElementById('myModal');
 
 var img = document.getElementById('map');
-var modalImg = document.getElementById('img01');
+var modalImg = document.getElementById('myModal');
 img.onclick = function () {
     modal.style.display = 'block';
     modalImg.src = this.src;
