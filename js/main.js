@@ -14,34 +14,33 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-    var slideshow = document.getElementById('slides');
-
-    if (slideshow.length > 0) {
-        slideshow.responsiveSlides();
+    if ($('.rslides').length) {
+        $('.rslides').responsiveSlides();
     }
-    $('.rslides').responsiveSlides();
 });
 
 //Custom Javascript code
 
-var modal = document.getElementById('myModal');
 
+var modal = document.getElementById('myModal');
 var img = document.getElementById('map');
 var modalImg = document.getElementById('myModal');
-img.onclick = function () {
-    modal.style.display = 'block';
-    modalImg.src = this.src;
-};
 
-var span = document.getElementsByClassName('close')[0];
+if (modal != null && modal.length > 0) {
+    img.onclick = function () {
+        modal.style.display = 'block';
+        modalImg.src = this.src;
+    };
+
+    var span = document.getElementsByClassName('close')[0];
 
 
-span.onclick = function () {
-    modal.style.display = 'none';
-};
+    span.onclick = function () {
+        modal.style.display = 'none';
+    };
+}
 
 //Custom jQuery code
-
 $('#phone').click(function () {
     $('#phone').html('555-123-4567');
 });
