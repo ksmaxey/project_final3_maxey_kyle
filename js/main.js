@@ -20,13 +20,11 @@ $(document).ready(function () {
 });
 
 //Custom Javascript code
-
-
 var modal = document.getElementById('myModal');
-var img = document.getElementById('map');
-var modalImg = document.getElementById('myModal');
+if (modal !== null) {
 
-if (modal != null && modal.length > 0) {
+    var img = document.getElementById('map');
+    var modalImg = document.getElementById('myModal');
     img.onclick = function () {
         modal.style.display = 'block';
         modalImg.src = this.src;
@@ -41,10 +39,12 @@ if (modal != null && modal.length > 0) {
 }
 
 //Custom jQuery code
-$('#phone').click(function () {
-    $('#phone').html('555-123-4567');
-});
+$(document).ready(function () {
+    $('#phone').click(function () {
+        $('#phone').html('555-123-4567');
+    });
 
-$('#email').click(function () {
-    $('#email').html('sweets@wreckit.com');
+    $('#email').click(function () {
+        $('#email').html('sweets@wreckit.com');
+    });
 });
